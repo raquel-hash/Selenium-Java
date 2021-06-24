@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.testng.reporters.EmailableReporter"/>
+    <listener class-name="org.testng.reporters.EmailableReporter2"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/R/Documents/IdeaProjects/PracticeObjectModel(failed)">
+    <classes>
+      <class name="CreateAccountTest">
+        <methods>
+          <include name="closeSite"/>
+          <include name="validSelectMultipleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- CreateAccountTest -->
+    </classes>
+  </test> <!-- C:/Users/R/Documents/IdeaProjects/PracticeObjectModel(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

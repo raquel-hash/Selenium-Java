@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/R/Documents/IdeaProjects/Examen2doParcialExercise4(failed)">
+    <groups>
+      <run>
+        <include name="group1"/>
+        <include name="group3"/>
+        <include name="group4"/>
+        <exclude name="group2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Exercise4Class2">
+        <methods>
+          <include name="verifyEmptyField"/>
+        </methods>
+      </class> <!-- Exercise4Class2 -->
+    </classes>
+  </test> <!-- C:/Users/R/Documents/IdeaProjects/Examen2doParcialExercise4(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

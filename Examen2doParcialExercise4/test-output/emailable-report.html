@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset='utf-8'>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">C:/Users/R/Documents/IdeaProjects/Examen2doParcialExercise4</a></td><td class="numi">8</td><td class="numi">8</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">87.6 seconds</td><td class="numi">group4 group3 group1 </td><td class="numi">group2 </td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">C:/Users/R/Documents/IdeaProjects/Examen2doParcialExercise4 &#8212; failed</th></tr>
+<tr class="failedodd"><td>Exercise4Class2</td><td><a href="#m1"><b>verifyEmptyField</b> (group3) </a></td><td class="numi">1</td><td>1622238165620</td><td class="numi">9654</td></tr>
+<tr><th colspan="5">C:/Users/R/Documents/IdeaProjects/Examen2doParcialExercise4 &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="7">Exercise4Class1</td><td><a href="#m2"><b>LoginSuccefull</b> (group1) </a></td><td class="numi">1</td><td>1622238087759</td><td class="numi">11285</td></tr><tr class="passedodd"><td><a href="#m3"><b>UserInvalid</b> (group4) </a></td><td class="numi">1</td><td>1622238099044</td><td class="numi">9080</td></tr><tr class="passedodd"><td><a href="#m4"><b>VerifyInputValid</b> (group1) </a></td><td class="numi">1</td><td>1622238108124</td><td class="numi">6710</td></tr><tr class="passedodd"><td><a href="#m5"><b>VerifyLoggedOut</b> (group3) </a></td><td class="numi">1</td><td>1622238114834</td><td class="numi">10320</td></tr><tr class="passedodd"><td><a href="#m6"><b>invalidCredentials</b> (group4) </a></td><td class="numi">1</td><td>1622238125154</td><td class="numi">9241</td></tr><tr class="passedodd"><td><a href="#m7"><b>verifyButtonReset</b> (group3) </a></td><td class="numi">1</td><td>1622238134395</td><td class="numi">9189</td></tr><tr class="passedodd"><td><a href="#m8"><b>verifyEmptyField</b> (group3) </a></td><td class="numi">1</td><td>1622238143584</td><td class="numi">11040</td></tr>
+<tr class="passedeven"><td>Exercise4Class2</td><td><a href="#m9"><b>VerifyInputValid</b> (group1) </a></td><td class="numi">1</td><td>1622238154634</td><td class="numi">10981</td></tr>
+</table>
+<h1>C:/Users/R/Documents/IdeaProjects/Examen2doParcialExercise4</h1>
+<h2 id="m1">Exercise4Class2:verifyEmptyField</h2>
+<div>
+<div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at Exercise4Class2.verifyEmptyField(Exercise4Class2.java:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Exercise4Class1:LoginSuccefull</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Exercise4Class1:UserInvalid</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Exercise4Class1:verifyEmptyField</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Exercise4Class2:VerifyInputValid</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Exercise4Class1:VerifyLoggedOut</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Exercise4Class1:verifyButtonReset</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">Exercise4Class1:VerifyInputValid</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">Exercise4Class1:invalidCredentials</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

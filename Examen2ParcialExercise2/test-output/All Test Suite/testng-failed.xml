@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/R/Documents/IdeaProjects/Examen2ParcialExercise2(failed)">
+    <classes>
+      <class name="Exercise2">
+        <methods>
+          <include name="setUrl"/>
+          <include name="emptyCredentials"/>
+          <include name="endSesion"/>
+        </methods>
+      </class> <!-- Exercise2 -->
+    </classes>
+  </test> <!-- C:/Users/R/Documents/IdeaProjects/Examen2ParcialExercise2(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

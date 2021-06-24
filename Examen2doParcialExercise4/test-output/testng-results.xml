@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="13" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-28T21:41:27Z" name="All Test Suite" finished-at="2021-05-28T21:42:55Z" duration-ms="87575">
+    <groups>
+      <group name="group4">
+        <method signature="Exercise4Class1.UserInvalid()[pri:0, instance:Exercise4Class1@6a28ffa4]" name="UserInvalid" class="Exercise4Class1"/>
+        <method signature="Exercise4Class1.invalidCredentials()[pri:0, instance:Exercise4Class1@6a28ffa4]" name="invalidCredentials" class="Exercise4Class1"/>
+      </group> <!-- group4 -->
+      <group name="group3">
+        <method signature="Exercise4Class1.VerifyLoggedOut()[pri:0, instance:Exercise4Class1@6a28ffa4]" name="VerifyLoggedOut" class="Exercise4Class1"/>
+        <method signature="Exercise4Class1.verifyButtonReset()[pri:0, instance:Exercise4Class1@6a28ffa4]" name="verifyButtonReset" class="Exercise4Class1"/>
+        <method signature="Exercise4Class1.verifyEmptyField()[pri:0, instance:Exercise4Class1@6a28ffa4]" name="verifyEmptyField" class="Exercise4Class1"/>
+        <method signature="Exercise4Class2.verifyEmptyField()[pri:0, instance:Exercise4Class2@48ae9b55]" name="verifyEmptyField" class="Exercise4Class2"/>
+      </group> <!-- group3 -->
+      <group name="group1">
+        <method signature="Exercise4Class1.LoginSuccefull()[pri:0, instance:Exercise4Class1@6a28ffa4]" name="LoginSuccefull" class="Exercise4Class1"/>
+        <method signature="Exercise4Class1.VerifyInputValid()[pri:0, instance:Exercise4Class1@6a28ffa4]" name="VerifyInputValid" class="Exercise4Class1"/>
+        <method signature="Exercise4Class2.VerifyInputValid()[pri:0, instance:Exercise4Class2@48ae9b55]" name="VerifyInputValid" class="Exercise4Class2"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test started-at="2021-05-28T21:41:27Z" name="C:/Users/R/Documents/IdeaProjects/Examen2doParcialExercise4" finished-at="2021-05-28T21:42:55Z" duration-ms="87575">
+      <class name="Exercise4Class1">
+        <test-method signature="LoginSuccefull()[pri:0, instance:Exercise4Class1@6a28ffa4]" started-at="2021-05-28T21:41:27Z" name="LoginSuccefull" finished-at="2021-05-28T21:41:39Z" duration-ms="11285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSuccefull -->
+        <test-method signature="UserInvalid()[pri:0, instance:Exercise4Class1@6a28ffa4]" started-at="2021-05-28T21:41:39Z" name="UserInvalid" finished-at="2021-05-28T21:41:48Z" duration-ms="9080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserInvalid -->
+        <test-method signature="VerifyInputValid()[pri:0, instance:Exercise4Class1@6a28ffa4]" started-at="2021-05-28T21:41:48Z" name="VerifyInputValid" finished-at="2021-05-28T21:41:54Z" duration-ms="6710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInputValid -->
+        <test-method signature="VerifyLoggedOut()[pri:0, instance:Exercise4Class1@6a28ffa4]" started-at="2021-05-28T21:41:54Z" name="VerifyLoggedOut" finished-at="2021-05-28T21:42:05Z" duration-ms="10320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoggedOut -->
+        <test-method signature="invalidCredentials()[pri:0, instance:Exercise4Class1@6a28ffa4]" started-at="2021-05-28T21:42:05Z" name="invalidCredentials" finished-at="2021-05-28T21:42:14Z" duration-ms="9241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentials -->
+        <test-method signature="verifyButtonReset()[pri:0, instance:Exercise4Class1@6a28ffa4]" started-at="2021-05-28T21:42:14Z" name="verifyButtonReset" finished-at="2021-05-28T21:42:23Z" duration-ms="9189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyButtonReset -->
+        <test-method signature="verifyEmptyField()[pri:0, instance:Exercise4Class1@6a28ffa4]" started-at="2021-05-28T21:42:23Z" name="verifyEmptyField" finished-at="2021-05-28T21:42:34Z" duration-ms="11040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyField -->
+      </class> <!-- Exercise4Class1 -->
+      <class name="Exercise4Class2">
+        <test-method signature="VerifyInputValid()[pri:0, instance:Exercise4Class2@48ae9b55]" started-at="2021-05-28T21:42:34Z" name="VerifyInputValid" finished-at="2021-05-28T21:42:45Z" duration-ms="10981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInputValid -->
+        <test-method signature="verifyEmptyField()[pri:0, instance:Exercise4Class2@48ae9b55]" started-at="2021-05-28T21:42:45Z" name="verifyEmptyField" finished-at="2021-05-28T21:42:55Z" duration-ms="9654" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at Exercise4Class2.verifyEmptyField(Exercise4Class2.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyField -->
+      </class> <!-- Exercise4Class2 -->
+    </test> <!-- C:/Users/R/Documents/IdeaProjects/Examen2doParcialExercise4 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

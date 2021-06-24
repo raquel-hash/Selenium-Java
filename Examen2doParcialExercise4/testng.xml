@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/R/Documents/IdeaProjects/Examen2doParcialExercise4">
+        <groups>
+            <run>
+                <include name="group1"/>
+                <exclude name="group2"/>
+                <include name="group3"/>
+                <include name="group4"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Exercise4Class1"></class>
+            <class name="Exercise4Class2"></class>
+        </classes>
+    </test>
+</suite>

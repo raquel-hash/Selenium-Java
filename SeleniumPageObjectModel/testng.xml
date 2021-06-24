@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="false" name="C:/Users/R/Documents/IdeaProjects/SeleniumPageObjectModel">
+        <classes>
+            <class name="CreateAccountTest"></class>
+            <class name="LoginPageTest"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"></listener>
+        <listener class-name="org.testng.reporters.EmailableReporter2"></listener>
+    </listeners>
+</suite>
